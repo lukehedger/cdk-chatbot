@@ -1,5 +1,5 @@
 {
-  "name": "cdk-init",
+  "name": "cdk-chatbot",
   "private": true,
   "version": "0.0.0",
   "scripts": {
@@ -21,6 +21,7 @@
     "typescript": "3.9.5"
   },
   "dependencies": {
+    "@aws-cdk/aws-chatbot": "1.47.0",
     "@aws-cdk/core": "1.47.0"
   }
 }

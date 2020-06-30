@@ -12,5 +12,5 @@
     "target": "ES2018",
     "typeRoots": ["./node_modules/@types"]
   },
-  "exclude": ["cdk.out"]
+  "exclude": ["cdk.out", "lib/__tests__"]
 }
