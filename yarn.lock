@@ -20,6 +20,15 @@
   dependencies:
     "@aws-cdk/core" "1.47.0"
 
+"@aws-cdk/aws-iam@1.47.0":
+  version "1.47.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/aws-iam/-/aws-iam-1.47.0.tgz#500c6c662b395100cc3625a1886a1209cbd82f91"
+  integrity sha512-gqs9Z63qCo3PuR3ORAS8ZahDPLBNFXJypfKEUJ4FNDXH0Co/bmICtnFawQa9N9Cqhrdd935x2r9FH02M26/WnA==
+  dependencies:
+    "@aws-cdk/core" "1.47.0"
+    "@aws-cdk/region-info" "1.47.0"
+    constructs "^3.0.2"
+
 "@aws-cdk/cfnspec@1.47.0":
   version "1.47.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/cfnspec/-/cfnspec-1.47.0.tgz#7bac9bc8145272d3096c2b5a538d7e0ddb4b58b3"
