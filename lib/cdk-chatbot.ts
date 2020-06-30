@@ -74,11 +74,9 @@ export class CdkChatbotStack extends Stack {
       configurationName: "ChatOps",
       iamRoleArn: chatOpsIAMRole.roleArn,
       loggingLevel: "INFO",
-      slackChannelId: "C010KLXNCG6",
-      slackWorkspaceId: "T3U1RJVMK",
-      snsTopicArns: [
-        "arn:aws:sns:eu-west-2:614517326458:ApplicationAlertsTopic-Production",
-      ],
+      slackChannelId: "SLACK_CHANNEL_ID",
+      slackWorkspaceId: "SLACK_WORKSPACE_ID",
+      snsTopicArns: ["SNS_TOPIC_ARN"],
     });
   }
 }
